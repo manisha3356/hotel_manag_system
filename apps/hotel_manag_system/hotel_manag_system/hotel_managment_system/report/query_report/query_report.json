@@ -1,0 +1,21 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-03-22 16:23:17.575080",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2020-03-22 22:08:15.995851",
+ "modified_by": "Administrator",
+ "module": "hotel managment system",
+ "name": "Query Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select  name,\n        name1,\n       \taddress,\n        gender,\t\n        date_of_arrivel,\t\n        date_of_departure\nfrom \n       `tabCustomer Details` \nwhere `tabCustomer Details`.status=\"booked\";",
+ "ref_doctype": "Customer Details",
+ "report_name": "Query Report",
+ "report_type": "Query Report",
+ "roles": []
+}

@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "creation": "2020-03-21 15:42:20.128855",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "building",
+  "floor",
+  "room_number",
+  "status",
+  "check_in",
+  "check_out"
+ ],
+ "fields": [
+  {
+   "fieldname": "building",
+   "fieldtype": "Int",
+   "label": "Building"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Int",
+   "label": "Floor"
+  },
+  {
+   "fieldname": "room_number",
+   "fieldtype": "Int",
+   "label": "Room Number"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nBooked"
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Datetime",
+   "label": "Check In "
+  },
+  {
+   "fieldname": "check_out",
+   "fieldtype": "Datetime",
+   "label": "check Out"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2020-03-21 16:17:29.729499",
+ "modified_by": "Administrator",
+ "module": "hotel managment system",
+ "name": "Room Status",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

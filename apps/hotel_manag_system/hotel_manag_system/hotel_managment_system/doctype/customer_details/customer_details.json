@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "creation": "2020-03-21 15:34:31.827787",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "email",
+  "contact_number",
+  "date_of_birth",
+  "address",
+  "gender",
+  "date_of_arrivel",
+  "date_of_departure",
+  "building",
+  "floor",
+  "room_number",
+  "status",
+  "check_in",
+  "check_out"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_arrivel",
+   "fieldtype": "Date",
+   "label": "Date Of Arrivel"
+  },
+  {
+   "fieldname": "date_of_departure",
+   "fieldtype": "Date",
+   "label": "Date Of Departure"
+  },
+  {
+   "fieldname": "building",
+   "fieldtype": "Int",
+   "label": "Building"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Int",
+   "label": "Floor"
+  },
+  {
+   "fieldname": "room_number",
+   "fieldtype": "Int",
+   "label": "Room Number"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Available\nBooked"
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Datetime",
+   "label": "Check In"
+  },
+  {
+   "fieldname": "check_out",
+   "fieldtype": "Datetime",
+   "label": "Check Out"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2020-03-21 19:25:20.489784",
+ "modified_by": "Administrator",
+ "module": "hotel managment system",
+ "name": "Customer Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
